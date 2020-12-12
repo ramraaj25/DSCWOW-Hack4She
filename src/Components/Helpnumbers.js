@@ -1,5 +1,7 @@
 import React from 'react';
 import M from "materialize-css"
+import women from './women.jpg'
+
 
 function Helpnumbers() {
     const numbers = [
@@ -21,11 +23,11 @@ function Helpnumbers() {
         }
     ]
     return (
-        <div>
-            <h2>HELPLINE NUMBERS</h2>
-            <h4>
+        <div style={{ backgroundColor: "lightgray" }}>
+            <span className="card-title" style={{ fontWeight: "bold", fontSize: "15px" }}><h4>HELPLINE NUMBERS</h4></span>
+            <h5>
                 Don't take eve-teasing lightly. Report immediately!
-            </h4>
+            </h5>
             {numbers.map((number) => (
                 <p>{number.name} : {number.num}</p>
             ))}
