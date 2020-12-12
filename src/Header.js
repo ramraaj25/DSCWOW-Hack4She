@@ -6,11 +6,11 @@ const Header = () => {
     return (
         <div className='header'>
             <Navbar bg='dark' variant='dark' sticky='top'>
-                <Navbar.Brand href='#home'>Hack4She</Navbar.Brand>
+                <Navbar.Brand href='/'>Hack4She</Navbar.Brand>
                 <Nav className='ml-auto'>
-                    <Nav.Link href='#home'>Home</Nav.Link>
-                    <Nav.Link href=''>Blog</Nav.Link>
-                    <Nav.Link href=''>Locations</Nav.Link>
+                    <Nav.Link href='/'>Home</Nav.Link>
+                    <Nav.Link href='/blog'>Blog</Nav.Link>
+                    <Nav.Link href='/locations'>Locations</Nav.Link>
                     <Nav.Link href=''>Activities</Nav.Link>
                 </Nav>
             </Navbar>

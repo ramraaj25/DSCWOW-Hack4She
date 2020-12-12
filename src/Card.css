@@ -42,3 +42,9 @@
 .card__info > p {
     text-align: left;
 }
+
+@media only screen and (max-width: 768px) {
+    .card {
+        width: 80%;
+    }
+}

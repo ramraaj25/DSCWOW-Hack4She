@@ -1,31 +1,32 @@
 import React from 'react';
+import M from "materialize-css"
 
-function Helpnumbers(){
-    const numbers =[
+function Helpnumbers() {
+    const numbers = [
         {
-            name:"Women in Distress",
+            name: "Women in Distress",
             num: 1091
         },
         {
-            name:"Police Control Room",
+            name: "Police Control Room",
             num: 100
         },
         {
-            name:"Child Helpline",
+            name: "Child Helpline",
             num: 1098
         },
         {
-            name:"Anti Stalking/Obscene calls",
+            name: "Anti Stalking/Obscene calls",
             num: 1096
         }
     ]
-    return(
+    return (
         <div>
             <h2>HELPLINE NUMBERS</h2>
             <h4>
                 Don't take eve-teasing lightly. Report immediately!
             </h4>
-            {numbers.map((number)=>(
+            {numbers.map((number) => (
                 <p>{number.name} : {number.num}</p>
             ))}
         </div>
