@@ -8,15 +8,16 @@ import cab from './cab.jpg'
 import './Tips.css'
 function Tips() {
     return (
-        <div>
-            <p>“Safety isn’t expensive, it’s priceless.”</p>
+        <div style={{backgroundColor:"#b2dfdb"}}>
+            <h5>“Safety isn’t expensive, it’s priceless.”</h5>
+            <div style={{margin:"10px"}}>
             <div style={{display:"flex", justifyContent:"space-between"}}>
         <div className="row">
         <div className="col m3 m7">
         <div className="card">
-        <div className="card-image" style={{position:"relative", height:"300px", width:"300px"}}>
-          <img src={spray} style={{height:"300px", width:"300px"}}/>
-          <span className="card-title" style={{position:"absolute", bottom:"2px",left:"10px",}}>ALWAYS CARRY A HANDY PEPPER SPRAY WITH YOU!</span>
+        <div className="card-image" style={{position:"relative", height:"300px", width:"400px"}}>
+          <img src={spray} style={{height:"300px", width:"400px"}}/>
+          <span className="card-title" style={{position:"absolute",fontWeight:"bold",fontSize:"15px"}}>ALWAYS CARRY A HANDY PEPPER SPRAY WITH YOU!</span>
         </div>
         </div>
 
@@ -27,9 +28,9 @@ function Tips() {
         <div className="row">
         <div className="col m3 m7">
         <div className="card">
-        <div className="card-image" style={{position:"relative", height:"300px", width:"300px"}}>
-          <img src={loud} style={{height:"300px", width:"300px"}}/>
-          <span className="card-title" style={{position:"absolute", bottom:"2px",left:"10px"}}>NEVER SPEAK YOUR PERSONAL DETAILS LOUD!</span>
+        <div className="card-image" style={{position:"relative", height:"300px", width:"400px"}}>
+          <img src={loud} style={{height:"300px", width:"400px"}}/>
+          <span className="card-title" style={{position:"absolute",fontWeight:"bold",fontSize:"15px"}}>NEVER SPEAK YOUR PERSONAL DETAILS LOUD!</span>
         </div>
         </div>
         </div>
@@ -37,9 +38,9 @@ function Tips() {
         <div className="row">
         <div className="col m3 m7">
         <div className="card">
-        <div className="card-image" style={{position:"relative", height:"300px", width:"300px"}}>
-          <img src={cab} style={{height:"300px", width:"300px"}}/>
-          <span className="card-title" style={{position:"absolute", bottom:"2px",left:"10px"}}>ALWAYS NOTE THE CAB NUMBER WHEN TRAVELLING!</span>
+        <div className="card-image" style={{position:"relative", height:"300px", width:"400px"}}>
+          <img src={cab} style={{height:"300px", width:"400px"}}/>
+          <span className="card-title" style={{position:"absolute",fontWeight:"bold",fontSize:"15px"}}>ALWAYS NOTE THE CAB NUMBER WHEN TRAVELLING!</span>
         </div>
         </div>
         </div>
@@ -50,9 +51,9 @@ function Tips() {
         <div className="row">
         <div className="col m3 m7">
         <div className="card">
-        <div className="card-image" style={{position:"relative", height:"300px", width:"300px"}}>
-          <img src={alone} style={{height:"300px", width:"300px"}}/>
-          <span className="card-title" style={{position:"absolute", bottom:"2px",left:"10px"}}>AVOID TRAVELLING IN DESERTED PLACE ALONE!</span>
+        <div className="card-image" style={{position:"relative", height:"300px", width:"400px"}}>
+          <img src={alone} style={{height:"300px", width:"400px"}}/>
+          <span className="card-title" style={{position:"absolute",fontWeight:"bold",fontSize:"15px"}}>AVOID TRAVELLING IN DESERTED PLACE ALONE!</span>
         </div>
         </div>
         </div>
@@ -61,9 +62,9 @@ function Tips() {
         <div className="row">
         <div className="col m3 m7">
         <div className="card">
-        <div className="card-image" style={{position:"relative", height:"300px", width:"300px"}}>
-          <img src={stranger} style={{height:"300px", width:"300px"}}/>
-          <span className="card-title" style={{position:"absolute", bottom:"2px",left:"10px"}}>BEWARE OF PEOPLE AROUND YOU!</span>
+        <div className="card-image" style={{position:"relative", height:"300px", width:"400px"}}>
+          <img src={stranger} style={{height:"300px", width:"400px"}}/>
+          <span className="card-title" style={{position:"absolute",fontWeight:"bold",fontSize:"15px"}}>BEWARE OF PEOPLE AROUND YOU!</span>
         </div>
         </div>
         </div>
@@ -73,15 +74,16 @@ function Tips() {
         <div className="row">
         <div className="col m3 m7">
         <div className="card">
-        <div className="card-image" style={{position:"relative", height:"300px", width:"300px"}}>
-          <img src={drink} style={{height:"300px", width:"300px"}}/>
-          <span className="card-title" style={{position:"absolute", bottom:"2px",left:"10px"}}>
+        <div className="card-image" style={{position:"relative", height:"300px", width:"400px"}}>
+          <img src={drink} style={{height:"300px", width:"400px"}}/>
+          <span className="card-title" style={{position:"absolute",fontWeight:"bold",fontSize:"15px"}}>
               ALWAYS POUR YOUR OWN DRINK. DRINKS MIGHT BE SPIKED!</span>
         </div>
         </div>
         </div>
         </div>
         </div>
+            </div>
         <hr style={{color:"black"}}/>
         </div>
     )

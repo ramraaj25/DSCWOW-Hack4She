@@ -1,27 +1,27 @@
-.card-title{
-    color: black;
-    ;
-    font-size: 20px;
-  text-shadow: 4px 4px 0px black;
-  mix-blend-mode: screen;
-  animation: fadeIn 2.5s linear forwards;
-}
-@keyframes fadeIn {
-    0% {
-        opacity: 0
-    }
 
-    100% {
-        opacity: 1;
-    }
+.card-title {
+  text-align: center;
+  -webkit-animation: glow 1s ease-in-out infinite alternate;
+  -moz-animation: glow 1s ease-in-out infinite alternate;
+  animation: glow 1s ease-in-out infinite alternate;
+  mix-blend-mode: screen;
 }
-.card-image{
+
+@keyframes glow {
+  from {
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px blue, 0 0 40px blue, 0 0 50px blue, 0 0 60px blue, 0 0 70px blue;
+  }
+  to {
+    text-shadow: 0 0 20px #fff, 0 0 30px #050505, 0 0 40px #050505, 0 0 50px #050505, 0 0 60px #050505, 0 0 70px #050505, 0 0 80px #050505;
+  }
+}
+.card .card-image{
     transition: all .2s ease-in;
   overflow-x: hidden;
 }
 .card-image:hover{
     transition: all .2s ease-in;
-	filter: blur(2px) hue-rotate(-47deg);
+	filter:hue-rotate(-47deg);
 	transform: scale(1.1);
   overflow-x: hidden;
 }

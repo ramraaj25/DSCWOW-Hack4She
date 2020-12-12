@@ -4,15 +4,15 @@ import Tips from './Tips'
 import Selfdefence from './Selfdefence'
 function Navbar() {
     return (
-        <div style={{backgroundColor:"#ffd54f"}}>
-        <nav className="nav-extended">
+        <div style={{backgroundColor:"#b2dfdb"}}>
+        <nav className="nav-extended" style={{backgroundColor:"teal"}}>
     <div class="nav-wrapper">
       <a href="#" class="brand-logo center">Women Safety Measures</a>
     </div>
     <div class="nav-content">
       <ul class="tabs tabs-transparent">
-        <li class="tab" style={{fontWeight:"bold"}}><a href="#Selfdefence">Self Defence</a></li>
-        <li class="tab" style={{fontWeight:"bold"}}><a class="active" href="#Precautions">Precautions</a></li>
+        <li class="tab" style={{fontWeight:"bold"}}><a class="active" href="#Selfdefence">Self Defence</a></li>
+        <li class="tab" style={{fontWeight:"bold"}}><a href="#Precautions">Precautions</a></li>
         <li class="tab" style={{fontWeight:"bold"}}><a href="#Helpline">Helpline</a></li>
       </ul>
     </div>
